@@ -37,8 +37,10 @@ e.g. download Win msi, Mac pkg or tarball
 #### modules
 [![NPM](https://nodei.co/npm/hapi.png?compact=true)](https://nodei.co/npm/hapi/) [![NPM](https://nodei.co/npm/request-promise.png?compact=true)](https://nodei.co/npm/request-promise/) [![NPM](https://nodei.co/npm/request.png?compact=true)](https://nodei.co/npm/request/)
 
+### Van Nick
+Two Factor Authentication is at the moment only in demo phase, to run the demo, launch app.js with node.js en go to http://localhost:3000
 
-### Installing
+## Installing
 
 install npm and run the script (debian as an example): 
 ```zsh
