@@ -1,4 +1,24 @@
 <html>
+<body>
+		<div class="container">
+		<form action="vue.app.html">
+		<input type="submit" value="Go back to login page" class="btn btn-danger">
+		</form>
+
+		<span id="connect" class="mbutton" style="display:none">[Connect]</span>
+		<input id="name" type="text" placeholder="name" class="input" autofocus>
+		<input id="password" type="password" class="input">
+		<span id="login" class="mbutton">[Login]</span>
+		<span id="logout" class="mbutton" style="display:none">[Logout]</span>
+	<span id="open" class="nbutton">[Open]</span>
+	<span id="import" class="nbutton">[Import]</span>
+	<span id="save" class="nbutton">[Save]</span>
+	<div id="json_editor" data-role="myjson"></div>
+	
+	
+
+
+</body>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>JSON Editor</title> 
@@ -164,7 +184,7 @@
 			position:absolute;
 			width:440px;
 			height:200px;
-			display:none;
+				display:none;
 			z-index:9999;
 			padding:20px;
 		}
@@ -241,6 +261,7 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jeditable.js/2.0.2/jquery.jeditable.min.js"></script>
 	<script>
+	
 		
 		// stuff for the right click menus
 		function setup_menu() {
@@ -546,6 +567,7 @@
 	</script>
 	<script src = "./nocrypto.js"></script>
 	<script>
+	
 		function xPOST(srv,verb,data) {
 			return $.ajax({
 				url: srv+'/'+verb,
@@ -620,19 +642,11 @@
 				});
 			})
 		})
+		
+		
+		
 	</script>
 </head>
-<body>
-		<span id="connect" class="mbutton" style="display:none">[Connect]</span>
-		<input id="name" type="text" placeholder="name" class="input" autofocus>
-		<input id="password" type="password" class="input">
-	<span id="login" class="mbutton">[Login]</span>
-		<span id="logout" class="mbutton" style="display:none">[Logout]</span>
-	<span id="open" class="nbutton">[Open]</span>
-	<span id="import" class="nbutton">[Import]</span>
-	<span id="save" class="nbutton">[Save]</span>
-	<div id="json_editor" data-role="myjson"></div>
 
-</body>
 </html>
 								
